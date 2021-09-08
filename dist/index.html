@@ -1,34 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-    <title>To-Do List</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leaderboard</title>
 <script defer src="main.js"></script></head>
+
 <body>
-   <section id="to-do">
+  <main id="lb-main">
+    <h1>Leaderboard</h1>
 
-     <div class="to-do-child">
+    <div class="structure">
+      <section class="scores-section">
+        <div class="recent-scores">
+          <h2>Recent Scores</h2>
+          <button type="submit">Refresh</button>
+        </div>
 
-      <div class="todo-title">
-        <h2>Today's To Do</h2>
-        <button type="submit"><i class="fas fa-sync fa-xs"></i></button>
-      </div>
- 
-      <form id="form">
-       <input type="text" placeholder="Add to your list..." class="text">
-       <button type="submit"><i class="fas fa-reply fa-xs"></i></button>
-      </form>
-      
-      <ul id="todo-lists">
-       
-      </ul>
+        
+          <ul class="table">
+            <li class="name-scores">Name: 100</li>
+            <li class="name-scores">Name: 20</li>
+            <li class="name-scores">Name: 50</li>
+            <li class="name-scores">Name: 78</li>
+            <li class="name-scores">Name: 125</li>
+            <li class="name-scores">Name: 77</li>
+            <li class="name-scores">Name: 42</li>
+          </ul>
+      </section>
 
-      <span class="clear-completed">Clear all completed</span>
-     </div>
-    
-   </section>
+      <section id="form-section">
+        <h2>Add Your Score</h2>
+
+        <form id="form">
+          <input type="text" placeholder="Your name" class="name">
+          <input type="text" placeholder="Your score" class="score">
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </div>
+  </main>
 </body>
-</html>
 
+</html>
