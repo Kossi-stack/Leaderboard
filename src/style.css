@@ -51,19 +51,19 @@ button:hover {
   margin: 0 auto;
 }
 
-.table {
+#table {
   margin: 40px 0;
   padding: 0;
   list-style: none;
   border: 2px solid rgb(82, 76, 76);
 }
 
-.table li {
+#table li {
   text-align: start;
   padding: 8px 10px;
 }
 
-.table li:nth-child(even) {
+#table li:nth-child(even) {
   background-color: lightgray;
 }
 
@@ -85,6 +85,15 @@ input {
   outline: none;
   border: 1px solid #333;
   font-size: 17px;
+}
+
+#error-msg {
+  color: rgb(228, 28, 28);
+  font-size: 14px;
+  font-weight: 500;
+  font-style: italic;
+  transition: all ease-in-out;
+  display: none;
 }
 
 #form-section button {
