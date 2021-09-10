@@ -5,18 +5,18 @@
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'sans-serif', Tahoma, Geneva, Verdana;
   line-height: 1.5;
-  background-color: #f4f4f4;
-  color: #333;
+  background-color: #bdb2b2;
+  color: rgb(19, 133, 226);
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 35px;
 }
 
 h2 {
-  font-size: 27px;
+  font-size: 25px;
 }
 
 button {
@@ -55,7 +55,7 @@ button:hover {
   margin: 40px 0;
   padding: 0;
   list-style: none;
-  border: 2px solid rgb(82, 76, 76);
+  border: 2px solid rgb(129, 123, 123);
 }
 
 #table li {
